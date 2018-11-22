@@ -790,16 +790,14 @@ def portscan():
 def instagram():
   print "Type username wordlist threads    Example: --> unkn0wn_bali wordlist.txt 60"
   insta = raw_input("--> ")
-  os.system("cd password")
-  os.system("python instagram.py " + insta)
+  os.system("python /root/tufhub/password/instagram.py " + insta)
 
 def hydra():
   hydra = raw_input("[HYDRA]$ ")
   os.system("hydra " + hydra)
 
 def twitter():
-  os.system("cd password && chmod +x *")
-  os.system("./tweetshell.sh")
+  os.system("cd /root/tufhub/password && chmod +x * && ./tweetshell.sh")
 
 def facebook():
   print "Type Email / ID  Wordlist    Example: [FACEBOOK->]: nigga.andrew777 facelist.txt"
