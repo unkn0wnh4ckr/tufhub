@@ -4,7 +4,7 @@ import os
 def install():
 	os.system("apt update")
 	os.system("pip install mechanize json whois python-whois requests bs4 requests[socks] urlparse cookielib") 
-	os.system("pip install scapy datetime argparse re threading urllib2 modules")
+	os.system("pip install scapy datetime argparse re threading urllib2 modules builtwith")
 	os.system("apt install python-socks")
 	os.system("apt install metasploit-framework")
 	os.system("apt install setoolkit")
