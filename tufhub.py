@@ -898,6 +898,7 @@ def help():
   print "[4]  Tool Installer  #!: (just installs new tools doesnt run them)"
   print "[5]  Password Attacks"
   print "[6]  Wireless"
+  print "menu : goes back to main menu (only if not in main menu)
   print G+"-" * 100
 def mainbanner():
   print N+"""
