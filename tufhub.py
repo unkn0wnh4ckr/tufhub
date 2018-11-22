@@ -317,7 +317,7 @@ def striker():
 def webkiller():
   while True:
 
-      os.system('clear')
+
       print(Banner)
       print '\r'
 
