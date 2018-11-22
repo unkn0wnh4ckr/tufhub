@@ -899,6 +899,7 @@ def help():
   print "[5]  Password Attacks"
   print "[6]  Wireless"
   print "menu : goes back to main menu (only if not in main menu)"
+  print "vpn  : starts vpn service (!ONLY WORKS IF YOU HAVE 4nonimizier INSTALLED")
   print G+"-" * 100
 def mainbanner():
   print N+"""
@@ -1243,4 +1244,6 @@ def menu():
       password()
     if menu == "6" :
       wireless()
+    if menu == "vpn" :
+      os.system("cd /root/4nonimizer && 4nonimizer start")
 menu()
