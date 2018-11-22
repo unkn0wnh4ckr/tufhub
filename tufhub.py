@@ -780,8 +780,7 @@ def webkiller():
 
 
 def redhawk():
-  os.system("cd redhawk")
-  os.system("php rhawk.php")
+  os.system("php /root/tufhub/redhawk/rhawk.php")
 
 def portscan():
   port = raw_input("Target> ")
@@ -797,7 +796,7 @@ def hydra():
   os.system("hydra " + hydra)
 
 def twitter():
-  os.system("cd /root/tufhub/password && chmod +x * && ./tweetshell.sh")
+  os.system("cd /root/tufhub/password && chmod +x /root/tufhub/password * && sh /root/tufhub/password/tweetshell.sh")
 
 def facebook():
   print "Type Email / ID  Wordlist    Example: [FACEBOOK->]: nigga.andrew777 facelist.txt"
