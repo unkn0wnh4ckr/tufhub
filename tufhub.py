@@ -792,7 +792,7 @@ def instagram():
   os.system("python /root/tufhub/password/instagram.py " + insta)
 
 def hydra():
-  print "Example: -l faggot@gmail.com -s 465 -S -v -V -P gmailcrack.txt -t 32  [!dont type hydra just type arguments!]
+  print "Example: -l faggot@gmail.com -s 465 -S -v -V -P gmailcrack.txt -t 32  [!dont type hydra just type arguments!]"
   hydra = raw_input("[HYDRA]$ ")
   os.system("hydra " + hydra)
 
