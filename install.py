@@ -9,6 +9,7 @@ def install():
 	os.system("apt install nmap -y")
 	os.system("apt install php -y")
 	os.system("apt install perl -y")
+	os.system("apt install hashcat -y")
 	print """entering big download region prepare you anus
 	if your not ready press ctrl C """
 	i = raw_input("press ctrl c to stop hit enter to continue")
