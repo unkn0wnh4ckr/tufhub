@@ -25,9 +25,16 @@ check = raw_input("[y/n]> ")
 if check == "y" :
 	print "good"
 	os.system("sleep 2")
-	install()
+	print "do you want to continue installation  [y/n]"
+	install = raw_input("[y/n]> ")
+	if install == "y" :
+		install()
+	if install == "n" :
+		print "thanks for checking out my script"
+		sys.exit
+
 if check == "n" :
-	print "then a decent amount of tools in this script might not work"
+	print "then some of the tools in this script might not work"
 	print "do you want to continue installation  [y/n]"
 	install = raw_input("[y/n]> ")
 	if install == "y" :
