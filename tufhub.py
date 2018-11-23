@@ -1068,6 +1068,11 @@ def exploits():
   if exploit == "2" :
     os.system("service postgresql start")
     os.system("setoolkit")
+  if exploit == "3" :
+    os.system("service postgresql start")
+    print "dont type msfvenom just type arguments / commands"
+    msfvenom = raw_input("[MSFV]> ")
+    os.system("msfvenom " + msfvenom)
   if exploit == "menu" :
     os.system("clear")
     mainbanner()
