@@ -1233,7 +1233,10 @@ def tools():
     os.system("sleep 2")
     os.system("clear")
     mainbanner()
-
+def hashcat():
+  print "Type in hashcat arguments / commands [DONT TYPE HASHCAT ONLY TYPE THE ARGUMENTS / COMMANDS]"
+  hashc = raw_input("HASHCAT>: ")
+  os.system("hashcat " + hashc)
 def passwordbanner():
   print N+"""
    @@@@@@@  @@@@@@@    @@@@@@    @@@@@@@  @@@  @@@  @@@  @@@  @@@   @@@@@@@@  
@@ -1256,6 +1259,7 @@ def password():
   print "[3]  gmail"
   print "[4]  twitter[broken]"
   print "[5]  facebook"
+  print "[6]  hashcat"
   print G+"-" * 100
   password = raw_input("[PASSWD] \033[94m->: \033[0m")
   if password == "1" :
@@ -1268,7 +1272,9 @@ def password():
     facebook()
   if password == "3" :
     gmail()
-  if wireless == "exit" :
+  if password == "6" :
+    hashcat()
+  if password == "exit" :
     print Y+"Exiting..."
     os.system("sleep 2")
     print G+"Follow \033[0m@unkn0wn_bali \033[92mOn Instagram\033[0m"
