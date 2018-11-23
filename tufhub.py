@@ -1,5 +1,6 @@
 #!/usr/local/bin/python
 # coding: latin-1
+import smtplib
 from modules import *
 import modules.colors
 import builtwith
@@ -782,8 +783,7 @@ def gmail():
   #!/usr/bin/python
   '''create by Ha3MrX'''
 
-  import smtplib
-  from os import system
+
 
   def main():
      print Y+'================================================='
