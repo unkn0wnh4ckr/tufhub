@@ -13,10 +13,12 @@ def install():
 	if your not ready press ctrl C """
 	i = raw_input("press ctrl c to stop hit enter to continue")
 	os.system("apt install metasploit-framework -y")
-	os.system("apt install setoolkit -y")
+	os.system("cd && git clone https://github.com/trustedsec/social-engineer-toolkit")
 	os.system("apt install wifite -y")
 	os.system("apt install reaver -y")
 	os.system("apt install aircrack-ng -y")
+	os.system("cd /root/social-engineer-toolkit && pip install -r requirements.txt")
+	os.system("python /root/social-engineer-toolkit/setup.py install")
 
 
 
@@ -45,10 +47,12 @@ if check == "n" :
 			if your not ready press ctrl C """
 			i = raw_input("press ctrl c to stop hit enter to continue")
 			os.system("apt install metasploit-framework -y")
-			os.system("apt install setoolkit -y")
+			os.system("cd && git clone https://github.com/trustedsec/social-engineer-toolkit")
 			os.system("apt install wifite -y")
 			os.system("apt install reaver -y")
 			os.system("apt install aircrack-ng -y")
+			os.system("cd /root/social-engineer-toolkit && pip install -r requirements.txt")
+			os.system("python /root/social-engineer-toolkit/setup.py install")
 
 		install()
 	if install == "n" :
