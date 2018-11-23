@@ -1060,6 +1060,7 @@ def exploits():
   print G+"-" * 100
   print r+"[1]  start metasploit"
   print "[2]  start setoolkit"
+  print "[3]  use msfvenom
   print G+"-" * 100
   exploit = raw_input(P+"[EXPL0IT] \033[0m->: \033[0m")
   if exploit == "1" :
