@@ -16,7 +16,7 @@ now all you gotta do is open
 the /root/.bashrc file in some
 editor and delete the "export PATH=/bin/tufhub:$PATH"
 line
-
+"""
 print "do you know how to get their? [y/n]"
 x = raw_input("[?]> ")
 if x == "n" :
