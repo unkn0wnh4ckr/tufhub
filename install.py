@@ -23,15 +23,10 @@ def install():
 print "are you running on the real kali linux os   [y/n]"
 check = raw_input("[y/n]> ")
 if check == "y" :
-	print "good"
+	print "ok most tools should work for you you might have to install other"
+	print "things on your os for this to work if it doesnt work"
 	os.system("sleep 2")
-	print "do you want to continue installation  [y/n]"
-	install = raw_input("[y/n]> ")
-	if install == "y" :
-		install()
-	if install == "n" :
-		print "thanks for checking out my script"
-		sys.exit
+	install()
 
 if check == "n" :
 	print "then some of the tools in this script might not work"
