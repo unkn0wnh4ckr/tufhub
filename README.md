@@ -10,3 +10,6 @@ kali linux some stuff works and some not
 and on real kali os it will work the best
 please tell me if theres an issue / error
 in the script because theres probably alot
+
+
+WARNING [ TWITTER BRUTE FORCE DOES NOT WORK]
