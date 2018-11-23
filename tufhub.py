@@ -821,7 +821,6 @@ def gmail():
   print '[2] exit'
   option = input('==>')
   if option == 1:
-     print "you can use a wordlist a gave you in /root/tufhub/wordlist/rockyou.txt"
      file_path = raw_input('path of passwords file :')
   else:
      system('clear')
@@ -864,13 +863,11 @@ def portscan():
 
 def instagram():
   print "Type username wordlist threads    Example: --> unkn0wn_bali wordlist.txt 60"
-  print "you can use a wordlist a gave you in /root/tufhub/wordlist/rockyou.txt"
   insta = raw_input("--> ")
   os.system("python /root/tufhub/password/instagram.py " + insta)
 
 def hydra():
   print "Example: -l faggot@gmail.com -s 465 -S -v -V -P gmailcrack.txt -t 32  [!dont type hydra just type arguments!]"
-  print "you can use a wordlist a gave you in /root/tufhub/wordlist/rockyou.txt"
   hydra = raw_input("[HYDRA]$ ")
   os.system("hydra " + hydra)
 
@@ -879,7 +876,6 @@ def twitter():
 
 def facebook():
   print "Type Email / ID  Wordlist    Example: [FACEBOOK->]: nigga.andrew777 facelist.txt"
-  print "you can use a wordlist a gave you in /root/tufhub/wordlist/rockyou.txt"
   facebook = raw_input("[FACEBOOK->]: ")
   os.system("cd password && perl fb-brute.pl " + facebook)
 
