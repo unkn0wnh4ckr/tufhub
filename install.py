@@ -10,8 +10,8 @@ def install():
 	os.system("apt install php -y")
 	os.system("apt install perl -y")
 	print """entering big download region prepare you anus
-	if your not ready press ctrl C or X out the terminal window"""
-	os.system("sleep 5")
+	if your not ready press ctrl C """
+	i = raw_input("press ctrl c to stop hit enter to continue")
 	os.system("apt install metasploit-framework -y")
 	os.system("apt install setoolkit -y")
 	os.system("apt install wifite -y")
@@ -42,8 +42,8 @@ if check == "n" :
 			os.system("apt install php -y")
 			os.system("apt install perl -y")
 			print """entering big download region prepare you anus
-			if your not ready press ctrl C or X out the terminal window"""
-			os.system("sleep 5")
+			if your not ready press ctrl C """
+			i = raw_input("press ctrl c to stop hit enter to continue")
 			os.system("apt install metasploit-framework -y")
 			os.system("apt install setoolkit -y")
 			os.system("apt install wifite -y")
