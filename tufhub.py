@@ -786,16 +786,16 @@ def gmail():
   from os import system
 
   def main():
-     print '================================================='
-     print '               create by Ha3MrX                  '
-     print '================================================='
+     print Y+'================================================='
+     print R+'               create by Ha3MrX                  '
+     print Y+'================================================='
      print '               ++++++++++++++++++++              '
      print '\n                                               '
      print '  _,.                                            '
      print '                                                 '
      print '                                                 '
      print '           HA3MrX                                '
-     print '       _,.                   '
+     print G+'       _,.                   '
      print '     ,` -.)                  '
      print '    ( _/-\\-._               '
      print '   /,|`--._,-^|            , '
