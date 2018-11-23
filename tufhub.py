@@ -1,6 +1,5 @@
 #!/usr/local/bin/python
 # coding: latin-1
-import smtplib
 from modules import *
 import modules.colors
 import builtwith
@@ -783,19 +782,20 @@ def gmail():
   #!/usr/bin/python
   '''create by Ha3MrX'''
 
-
+  import smtplib
+  from os import system
 
   def main():
-     print Y+'================================================='
-     print R+'               create by Ha3MrX                  '
-     print Y+'================================================='
+     print '================================================='
+     print '               create by Ha3MrX                  '
+     print '================================================='
      print '               ++++++++++++++++++++              '
      print '\n                                               '
      print '  _,.                                            '
      print '                                                 '
      print '                                                 '
      print '           HA3MrX                                '
-     print G+'       _,.                   '
+     print '       _,.                   '
      print '     ,` -.)                  '
      print '    ( _/-\\-._               '
      print '   /,|`--._,-^|            , '
@@ -863,11 +863,13 @@ def portscan():
 
 def instagram():
   print "Type username wordlist threads    Example: --> unkn0wn_bali wordlist.txt 60"
+  print "you can use a wordlist a gave you in /root/tufhub/wordlist/rockyou.txt"
   insta = raw_input("--> ")
   os.system("python /root/tufhub/password/instagram.py " + insta)
 
 def hydra():
   print "Example: -l faggot@gmail.com -s 465 -S -v -V -P gmailcrack.txt -t 32  [!dont type hydra just type arguments!]"
+  print "you can use a wordlist a gave you in /root/tufhub/wordlist/rockyou.txt"
   hydra = raw_input("[HYDRA]$ ")
   os.system("hydra " + hydra)
 
@@ -876,6 +878,7 @@ def twitter():
 
 def facebook():
   print "Type Email / ID  Wordlist    Example: [FACEBOOK->]: nigga.andrew777 facelist.txt"
+  print "you can use a wordlist a gave you in /root/tufhub/wordlist/rockyou.txt"
   facebook = raw_input("[FACEBOOK->]: ")
   os.system("cd password && perl fb-brute.pl " + facebook)
 
@@ -1037,6 +1040,12 @@ def stress():
     syn()
   if stress == "4" :
     pod()
+  if stress == "exit" :
+    print Y+"Exiting..."
+    os.system("sleep 2")
+    print G+"Follow \033[0m@unkn0wn_bali \033[92mOn Instagram\033[0m"
+    os.system("sleep 1")
+    sys.exit()
   if stress == "menu" :
     os.system("clear")
     mainbanner()
@@ -1060,7 +1069,7 @@ def exploits():
   print G+"-" * 100
   print r+"[1]  start metasploit"
   print "[2]  start setoolkit"
-  print "[3]  use msfvenom
+  print "[3]  use msfvenom"
   print G+"-" * 100
   exploit = raw_input(P+"[EXPL0IT] \033[0m->: \033[0m")
   if exploit == "1" :
@@ -1074,6 +1083,12 @@ def exploits():
     print "dont type msfvenom just type arguments / commands"
     msfvenom = raw_input("[MSFV]> ")
     os.system("msfvenom " + msfvenom)
+  if exploit == "exit" :
+    print Y+"Exiting..."
+    os.system("sleep 2")
+    print G+"Follow \033[0m@unkn0wn_bali \033[92mOn Instagram\033[0m"
+    os.system("sleep 1")
+    sys.exit()
   if exploit == "menu" :
     os.system("clear")
     mainbanner()
@@ -1140,6 +1155,12 @@ def info():
     print "Type nmap commands   Example: --> nmap www.pornhub.com -b -F"
     nmap = raw_input(R+"--> \033[0m")
     os.system(nmap)
+  if info == "exit" :
+    print Y+"Exiting..."
+    os.system("sleep 2")
+    print G+"Follow \033[0m@unkn0wn_bali \033[92mOn Instagram\033[0m"
+    os.system("sleep 1")
+    sys.exit()
   if info == "menu" :
     os.system("clear")
     mainbanner()
@@ -1197,7 +1218,13 @@ def tools():
     if install == "apt" :
       print R+"[!] press ctrl C to stop the script / download\033[0m"
       os.system("sleep 1")
-      os.system("apt install metasploit-framework")   
+      os.system("apt install metasploit-framework") 
+  if tools == "exit" :
+    print Y+"Exiting..."
+    os.system("sleep 2")
+    print G+"Follow \033[0m@unkn0wn_bali \033[92mOn Instagram\033[0m"
+    os.system("sleep 1")
+    sys.exit()  
   if tools == "menu" :
     os.system("clear")
     mainbanner()
@@ -1241,6 +1268,12 @@ def password():
     facebook()
   if password == "3" :
     gmail()
+  if wireless == "exit" :
+    print Y+"Exiting..."
+    os.system("sleep 2")
+    print G+"Follow \033[0m@unkn0wn_bali \033[92mOn Instagram\033[0m"
+    os.system("sleep 1")
+    sys.exit()
   if password == "menu" :
     os.system("clear")
     mainbanner()
@@ -1294,6 +1327,12 @@ def wireless():
   if wireless == "menu" :
     os.system("clear")
     mainbanner()
+  if wireless == "exit" :
+    print Y+"Exiting..."
+    os.system("sleep 2")
+    print G+"Follow \033[0m@unkn0wn_bali \033[92mOn Instagram\033[0m"
+    os.system("sleep 1")
+    sys.exit()
   else:
     print r+"no option called ", R+wireless
     os.system("sleep 2")
