@@ -5,18 +5,18 @@ def install():
 	os.system("apt update")
 	os.system("pip install mechanize json whois python-whois requests bs4 requests[socks] urlparse cookielib") 
 	os.system("pip install scapy datetime argparse re threading urllib2 modules builtwith smtplib")
-	os.system("apt install python-socks")
-	os.system("apt install nmap")
-	os.system("apt install php")
-	os.system("apt install perl")
+	os.system("apt install python-socks -y")
+	os.system("apt install nmap -y")
+	os.system("apt install php -y")
+	os.system("apt install perl -y")
 	print """entering big download region prepare you anus
-	if your not ready press ctrl C"""
+	if your not ready press ctrl C or X out the terminal window"""
 	os.system("sleep 5")
-	os.system("apt install metasploit-framework")
-	os.system("apt install setoolkit")
-	os.system("apt install wifite")
-	os.system("apt install reaver")
-	os.system("apt install aircrack-ng")
+	os.system("apt install metasploit-framework -y")
+	os.system("apt install setoolkit -y")
+	os.system("apt install wifite -y")
+	os.system("apt install reaver -y")
+	os.system("apt install aircrack-ng -y")
 
 
 
@@ -37,18 +37,18 @@ if check == "n" :
 			os.system("apt update")
 			os.system("pip install mechanize json whois python-whois requests bs4 requests[socks] urlparse cookielib") 
 			os.system("pip install scapy datetime argparse re threading urllib2 modules builtwith smtplib")
-			os.system("apt install python-socks")
-			os.system("apt install nmap")
-			os.system("apt install php")
-			os.system("apt install perl")
+			os.system("apt install python-socks -y")
+			os.system("apt install nmap -y")
+			os.system("apt install php -y")
+			os.system("apt install perl -y")
 			print """entering big download region prepare you anus
-			if your not ready press ctrl C"""
+			if your not ready press ctrl C or X out the terminal window"""
 			os.system("sleep 5")
-			os.system("apt install metasploit-framework")
-			os.system("apt install setoolkit")
-			os.system("apt install wifite")
-			os.system("apt install reaver")
-			os.system("apt install aircrack-ng")
+			os.system("apt install metasploit-framework -y")
+			os.system("apt install setoolkit -y")
+			os.system("apt install wifite -y")
+			os.system("apt install reaver -y")
+			os.system("apt install aircrack-ng -y")
 
 		install()
 	if install == "n" :
