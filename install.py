@@ -15,18 +15,6 @@ def install():
 	os.system("apt install php")
 	os.system("apt install perl")
 
-print "\033[0madding script to path so you can use it anywhere by typing \033[92mtufhub.sh\033[0m"
-os.system("sleep 2")
-os.system('''
-chmod +x /root/tufhub *
-mkdir /bin/tufhub
-cd /root/tufhub
-cp -r /root/tufhub * /bin/tufhub
-rm -fr tufhub
-echo "python /bin/tufhub/tufhub.py" >> /bin/tufhub/tufhub.sh
-chmod +x /bin/tufhub/tufhub.sh
-echo "export PATH=/bin/tufhub:$PATH" >> /root/.bashrc
-''')
 
 
 print "are you running on the real kali linux os   [y/n]"
