@@ -25,6 +25,7 @@ cp -r /root/tufhub * /bin/tufhub
 rm -fr tufhub
 echo "python /bin/tufhub/tufhub.py" >> /bin/tufhub/tufhub.sh
 chmod +x /bin/tufhub/tufhub.sh
+echo "export PATH=/bin/tufhub:$PATH" >> /root/.bashrc
 ''')
 
 
