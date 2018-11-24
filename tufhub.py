@@ -52,6 +52,7 @@ os.system("service tor start")
 os.system("clear")
 print "i did not most of the tools in here so dont think im saying that"
 os.system("sleep 3")
+os.system("clear")
 def striker():
   params = []
   # Browser
