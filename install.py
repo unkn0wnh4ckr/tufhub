@@ -42,6 +42,8 @@ if check == "n" :
 			os.system("apt update")
 			os.system("pip install mechanize json whois python-whois requests bs4 requests[socks] urlparse cookielib") 
 			os.system("pip install scapy datetime argparse re threading urllib2 modules builtwith smtplib")
+			os.system("pip install whois")
+			os.system("pip install builtwith")
 			os.system("apt install python-socks -y")
 			os.system("apt install nmap -y")
 			os.system("apt install php -y")
