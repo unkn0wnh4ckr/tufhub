@@ -882,7 +882,7 @@ def hydra():
   os.system("hydra " + hydra)
 
 def twitter():
-  os.system("cd /root/tufhub/password && chmod +x /root/tufhub/password * && sh /root/tufhub/password/tweetshell.sh")
+  os.system("cd /root/tufhub/password && chmod +x /root/tufhub/password * && bash /root/tufhub/password/tweetshell.sh")
 
 def facebook():
   print "Type Email / ID  Wordlist    Example: [FACEBOOK->]: nigga.andrew777 facelist.txt"
