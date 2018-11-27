@@ -16,10 +16,10 @@ def install():
 	os.system("apt install perl -y")
 	os.system("apt install hashcat -y")
 	os.system("mkdir /root/tufhub/other")
-	os.system("cd /root/tufhub/other && git clone https://github.com/thelinuxchoice/shellphish")
-	os.system("cd /root/tufhub/other && git clone https://github.com/thelinuxchoice/userrecon")
-	os.system("cd /root/tufhub/other && git clone https://github.com/thelinuxchoice/instaspam")
-	os.system("cd /root/tufhub/other && git clone https://github.com/thelinuxchoice/fastssh")
+	os.system("cd && git clone https://github.com/thelinuxchoice/shellphish")
+	os.system("cd && git clone https://github.com/thelinuxchoice/userrecon")
+	os.system("cd && git clone https://github.com/thelinuxchoice/instaspam")
+	os.system("cd && git clone https://github.com/thelinuxchoice/fastssh")
 	print "\n"
 	print """entering big download region prepare you anus
 	if your not ready press ctrl C """
