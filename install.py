@@ -15,6 +15,7 @@ def install():
 	os.system("apt install php -y")
 	os.system("apt install perl -y")
 	os.system("apt install hashcat -y")
+	os.system("apt install nc")
 	os.system("cd && git clone https://github.com/thelinuxchoice/shellphish")
 	os.system("cd && git clone https://github.com/thelinuxchoice/userrecon")
 	os.system("cd && git clone https://github.com/thelinuxchoice/instaspam")
