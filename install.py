@@ -15,6 +15,11 @@ def install():
 	os.system("apt install php -y")
 	os.system("apt install perl -y")
 	os.system("apt install hashcat -y")
+	os.system("mkdir /root/tufhub/other")
+	os.system("cd /root/tufhub/other && git clone https://github.com/thelinuxchoice/shellphish")
+	os.system("cd /root/tufhub/other && git clone https://github.com/thelinuxchoice/userrecon")
+	os.system("cd /root/tufhub/other && git clone https://github.com/thelinuxchoice/instaspam")
+	os.system("cd /root/tufhub/other && git clone https://github.com/thelinuxchoice/fastssh")
 	print """entering big download region prepare you anus
 	if your not ready press ctrl C """
 	i = raw_input("press ctrl c to stop hit enter to continue")
@@ -51,6 +56,8 @@ if check == "n" :
 			os.system("apt install nmap -y")
 			os.system("apt install php -y")
 			os.system("apt install perl -y")
+			os.system("apt install hashcat")
+			os.system("mkdir /root/tufhub/other")
 			os.system("cd /root/tufhub/other && git clone https://github.com/thelinuxchoice/shellphish")
 			os.system("cd /root/tufhub/other && git clone https://github.com/thelinuxchoice/userrecon")
 			os.system("cd /root/tufhub/other && git clone https://github.com/thelinuxchoice/instaspam")
