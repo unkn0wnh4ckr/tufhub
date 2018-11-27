@@ -20,6 +20,7 @@ def install():
 	os.system("cd /root/tufhub/other && git clone https://github.com/thelinuxchoice/userrecon")
 	os.system("cd /root/tufhub/other && git clone https://github.com/thelinuxchoice/instaspam")
 	os.system("cd /root/tufhub/other && git clone https://github.com/thelinuxchoice/fastssh")
+	print "\n"
 	print """entering big download region prepare you anus
 	if your not ready press ctrl C """
 	i = raw_input("press ctrl c to stop hit enter to continue")
@@ -62,6 +63,7 @@ if check == "n" :
 			os.system("cd /root/tufhub/other && git clone https://github.com/thelinuxchoice/userrecon")
 			os.system("cd /root/tufhub/other && git clone https://github.com/thelinuxchoice/instaspam")
 			os.system("cd /root/tufhub/other && git clone https://github.com/thelinuxchoice/fastssh")
+			print "\n"
 			print """entering big download region prepare you anus
 			if your not ready press ctrl C """
 			i = raw_input("press ctrl c to stop hit enter to continue")
