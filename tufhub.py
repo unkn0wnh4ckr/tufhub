@@ -4447,7 +4447,7 @@ def otherbanner():
    WHITE=`echo -en "\e[107m"`
    DEFAULT=`echo -en "\e[49m"`
    
-  clear
+
   ''')
 
   os.system('''printf """
